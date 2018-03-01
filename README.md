@@ -30,12 +30,12 @@ Basic steps to translate using Qt Linguist:
 
 | Language              | Code  | Status      | Contributors |
 | --------------------- | ----- | ----------- | ------------ |
-| Spanish | es |  v0.1.0    | [lupoDharkael](https://github.com/lupoDharkael) |
-| Catalan | ca |  v0.5.0    | [joamuran](https://github.com/joamuran) |
-| Russian | ru |  v0.5.1   | [Shatur95](https://github.com/Shatur95) |
-| Chinese (Simplified)  | zh_CN | v0.5.1 | [copie](https://github.com/copie), [hosiet](https://github.com/hosiet) |
-| Chinese (Traditional) | zh_TW | v0.5.1 | [PeterDaveHello](https://github.com/PeterDaveHello) |
-| Turkish               | tr | v0.5.1 | [oltulu](https://github.com/oltulu) |
-| Georgian              | ge | v0.5.1 | [giogziro95](https://github.com/giogziro95) |
-| French                | fr | v0.5.1 | [ld892012](https://github.com/ld892012) |
-| Polish                | pol | v0.5.1 | [napcok](https://github.com/napcok) |
+| Spanish | es |  :bookmark:v0.1.0    | [lupoDharkael](https://github.com/lupoDharkael) |
+| Catalan | ca |  :bookmark:v0.5.0    | [joamuran](https://github.com/joamuran) |
+| Russian | ru |  :bookmark:v0.5.1   | [Shatur95](https://github.com/Shatur95) |
+| Chinese (Simplified)  | zh_CN | :bookmark:v0.5.1 | [copie](https://github.com/copie), [hosiet](https://github.com/hosiet) |
+| Chinese (Traditional) | zh_TW | :bookmark:v0.5.1 | [PeterDaveHello](https://github.com/PeterDaveHello) |
+| Turkish               | tr | :bookmark:v0.5.1 | [oltulu](https://github.com/oltulu) |
+| Georgian              | ge | :bookmark:v0.5.1 | [giogziro95](https://github.com/giogziro95) |
+| French                | fr | :bookmark:v0.5.1 | [ld892012](https://github.com/ld892012) |
+| Polish                | pol | :bookmark:v0.5.1 | [napcok](https://github.com/napcok) |
