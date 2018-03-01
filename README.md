@@ -38,4 +38,4 @@ Basic steps to translate using Qt Linguist:
 | Turkish               | tr | :bookmark:v0.5.1 | [oltulu](https://github.com/oltulu) |
 | Georgian              | ge | :bookmark:v0.5.1 | [giogziro95](https://github.com/giogziro95) |
 | French                | fr | :bookmark:v0.5.1 | [ld892012](https://github.com/ld892012) |
-| Polish                | pol | :bookmark:v0.5.1 | [napcok](https://github.com/napcok) |
+| Polish                | pl | :bookmark:v0.5.1 | [napcok](https://github.com/napcok) |
