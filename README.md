@@ -1,4 +1,4 @@
-# [Flameshot](https://flameshotapp.github.io) Translations
+# [Flameshot](https://flameshotapp.github.io) Translation instructions
 
 ## How to translate
 
@@ -22,8 +22,8 @@ Basic steps to translate using Qt Linguist:
 
 ## How to contribute
 * Translate.
-* Send a pull request.
-   * If you don't know how to send a pull request, [create an issue](https://github.com/flameshotapp/translations/issues) and tell me where I can download your translation.
+* Send a pull request to [repo](https://github.com/lupoDharkael/flameshot).
+   * If you don't know how to send a pull request, [create an issue](https://github.com/flameshotapp/translation-instruction/issues) and tell me where I can download your translation.
 * Your translation will be included in the next version of Flameshot.
 
 ## Status
