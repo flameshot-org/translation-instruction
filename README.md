@@ -30,12 +30,14 @@ Basic steps to translate using Qt Linguist:
 
 | Language              | Code  | Status      | Contributors |
 | --------------------- | ----- | ----------- | ------------ |
-| Spanish | es |  :bookmark:v0.1.0    | [lupoDharkael](https://github.com/lupoDharkael) |
+| Spanish | es |  :bookmark:v0.1.0    | [lupoDharkael](https://github.com/lupoDharkael), [AlfredoRamos](https://github.com/AlfredoRamos)(minor fix) |
 | Catalan | ca |  :bookmark:v0.5.0    | [joamuran](https://github.com/joamuran) |
 | Russian | ru |  :bookmark:v0.5.1   | [Shatur95](https://github.com/Shatur95) |
-| Chinese (Simplified)  | zh_CN | :bookmark:v0.5.1 | [copie](https://github.com/copie), [hosiet](https://github.com/hosiet) |
+| Chinese (Simplified)  | zh_CN | :bookmark:v0.5.1 | [copie](https://github.com/copie), [hosiet](https://github.com/hosiet)(improve translation) |
 | Chinese (Traditional) | zh_TW | :bookmark:v0.5.1 | [PeterDaveHello](https://github.com/PeterDaveHello) |
 | Turkish               | tr | :bookmark:v0.5.1 | [oltulu](https://github.com/oltulu) |
 | Georgian              | ka | :bookmark:v0.5.1 | [giogziro95](https://github.com/giogziro95) |
 | French                | fr | :bookmark:v0.5.1 | [ld892012](https://github.com/ld892012) |
 | Polish                | pl | :bookmark:v0.5.1 | [napcok](https://github.com/napcok) |
+
+*NOTE*. Contributors who cleaned up of TS files: [AlfredoRamos](https://github.com/AlfredoRamos)
