@@ -39,5 +39,6 @@ Basic steps to translate using Qt Linguist:
 | Georgian              | ka | :bookmark:v0.5.1 | [giogziro95](https://github.com/giogziro95) |
 | French                | fr | :bookmark:v0.5.1 | [ld892012](https://github.com/ld892012) |
 | Polish                | pl | :bookmark:v0.5.1 | [napcok](https://github.com/napcok) |
+| Hungarian             | hu | :bookmark:   | [fxdave](https://github.com/fxdave) |
 
 *NOTE*. Contributors who cleaned up of TS files: [AlfredoRamos](https://github.com/AlfredoRamos)
