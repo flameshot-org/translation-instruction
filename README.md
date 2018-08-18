@@ -40,5 +40,3 @@ Basic steps to translate using Qt Linguist:
 | French                | fr | :bookmark:v0.5.1 | [ld892012](https://github.com/ld892012) |
 | Polish                | pl | :bookmark:v0.5.1 | [napcok](https://github.com/napcok) |
 | Hungarian             | hu | :bookmark:v0.6.0 | [fxdave](https://github.com/fxdave) |
-
-*NOTE*. Contributors who cleaned up of TS files: [AlfredoRamos](https://github.com/AlfredoRamos)
