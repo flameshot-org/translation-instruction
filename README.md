@@ -32,7 +32,7 @@ Basic steps to translate using Qt Linguist:
 | --------------------- | ----- | ----------- | ------------ |
 | Spanish | es |  :bookmark:v0.1.0    | [lupoDharkael](https://github.com/lupoDharkael), [AlfredoRamos](https://github.com/AlfredoRamos)(minor fix) |
 | Catalan | ca |  :bookmark:v0.5.0    | [joamuran](https://github.com/joamuran) |
-| Russian | ru |  :bookmark:v0.5.1   | [Shatur95](https://github.com/Shatur95) |
+| Russian | ru |  :bookmark:v0.5.1   | [Shatur95](https://github.com/Shatur95), [alok1111](https://github.com/alok1111)(update) |
 | Chinese (Simplified)  | zh_CN | :bookmark:v0.5.1 | [copie](https://github.com/copie), [hosiet](https://github.com/hosiet)(improve translation) |
 | Chinese (Traditional) | zh_TW | :bookmark:v0.5.1 | [PeterDaveHello](https://github.com/PeterDaveHello) |
 | Turkish               | tr | :bookmark:v0.5.1 | [oltulu](https://github.com/oltulu) |
@@ -40,3 +40,8 @@ Basic steps to translate using Qt Linguist:
 | French                | fr | :bookmark:v0.5.1 | [ld892012](https://github.com/ld892012) |
 | Polish                | pl | :bookmark:v0.5.1 | [napcok](https://github.com/napcok) |
 | Hungarian             | hu | :bookmark:v0.6.0 | [fxdave](https://github.com/fxdave) |
+| Japanese              | jp | :bookmark:       | [sicklylife-jp](https://github.com/sicklylife-jp) |
+| Brazilian Portuguese  | pt_br | :bookmark:    | [Streppel](https://github.com/Streppel) |
+| Serbian               | sr | :bookmark:       | [cobisimo](https://github.com/cobisimo) |
+
+
