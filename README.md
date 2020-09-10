@@ -19,7 +19,7 @@ Basic steps to translate using Qt Linguist:
 1. Download `Internationalization_es.ts` and rename it to `Internationalization_abc.ts`.
 2. Open `Internationalization_abc.ts` with your favorite text editor, replace the 3rd line with `<TS version="2.1" language="abc">`, save and quit.
 3. Then open and translate `Internationalization_abc.ts` using Qt Linguist.
-***NOTE.*** Translation files beginning with "Internationalization", noting that "Internationalization" is initialized with a **capital letter**.
+***NOTE.*** Translation files begin with "Internationalization", noting that "Internationalization" is initialized with a **capital letter**.
 
 ## How to contribute
 * Translate.
