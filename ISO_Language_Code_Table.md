@@ -1,4 +1,6 @@
-**ISO Language Code Table**
+## ISO Language Code Table
+
+### For Qt programs, the language code portion of the translated `.ts` file name should be separated by an underscore `_`, not a minus `-`sign.
 
 | Code   | Name                                                    |
 | ------ | ------------------------------------------------------- |
