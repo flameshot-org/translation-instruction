@@ -29,7 +29,7 @@ Basic steps to translate using Qt Linguist:
 
 ## Status
 
-| Language              | Language Code | Status      | Contributors |
+| Language              | Language Code | Status(Since)      | Contributors |
 | --------------------- | ----- | ----------- | ------------ |
 | Spanish             | es |  :bookmark:v0.1.0    | [lupoDharkael](https://github.com/lupoDharkael), [AlfredoRamos](https://github.com/AlfredoRamos)(minor fix), [Kiroc](https://github.com/Kiroc)(minor fix), [aluaces](https://github.com/aluaces)(typos fix) |
 | Catalan | ca    |  :bookmark:v0.5.0    | [joamuran](https://github.com/joamuran) |
