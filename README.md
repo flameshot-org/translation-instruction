@@ -21,6 +21,15 @@ Basic steps to translate using Qt Linguist:
 3. Then open and translate `Internationalization_abc.ts` using Qt Linguist.
 ***NOTE.*** Translation files begin with "Internationalization", noting that "Internationalization" is initialized with a **capital letter**.
 
+## How to change app language
+
+By default Flameshot chooses the translation language based on the OS settings.
+Currently there is no option in config to override this.
+
+On Linux you can set the `LANGUAGE` environment variable.
+For example, by launching via terminal: `LANGUAGE=ru_RU:ru flameshot`.
+Or if you are a developer and building/running Flameshot via Qt Creator, you can do this via [project settings](https://i.imgur.com/1LYkHyh.png).
+
 ## How to contribute
 * Translate.
 * Send a pull request to [repo](https://github.com/flameshot-org/flameshot).
