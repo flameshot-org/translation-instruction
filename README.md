@@ -54,7 +54,7 @@ Or if you are a developer and building/running Flameshot via Qt Creator, you can
 
 ## Status
 
-| Language              | Language Code | Status(Since)      | Contributors |
+| Language              | Language Code | Since      | Contributors |
 | --------------------- | ----- | ----------- | ------------ |
 | Spanish             | es |  :bookmark:v0.1.0    | [lupoDharkael](https://github.com/lupoDharkael), [AlfredoRamos](https://github.com/AlfredoRamos)(minor fix), [Kiroc](https://github.com/Kiroc)(minor fix), [aluaces](https://github.com/aluaces)(typos fix) |
 | Catalan | ca    |  :bookmark:v0.5.0    | [joamuran](https://github.com/joamuran) |
