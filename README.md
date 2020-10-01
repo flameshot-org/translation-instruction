@@ -22,7 +22,7 @@ You can do this using `lupdate`, which can be found in the Qt dir, for example `
 Run it like this from the Flameshot repo root:
 
 ```sh
-lupdate src/  -ts data/translations/Internationalization_ru.ts
+lupdate src/ -ts data/translations/Internationalization_ru.ts
 ```
 
 If you are a developer building Flameshot via CMake, you can use `-DGENERATE_TS` option.
