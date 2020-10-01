@@ -27,7 +27,7 @@ lupdate src/ -ts data/translations/Internationalization_ru.ts
 
 If you are a developer building Flameshot via CMake, you can use `-DGENERATE_TS` option.
 
-If you don't have `lupdate`/Qt installed, you can ask someone to regenarate it for you (e.g. in Slack).
+If you don't have `lupdate`/Qt installed, you can ask someone to regenarate it for you (e.g. in [Slack](https://flameshotworkspace.slack.com)).
 
 ## How to add a new language
 
