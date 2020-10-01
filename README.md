@@ -28,7 +28,7 @@ Currently there is no option in config to override this.
 
 On Linux you can set the `LANGUAGE` environment variable.
 For example, by launching via terminal: `LANGUAGE=ru_RU:ru flameshot`.
-Or if you are a developer and building/running Flameshot via Qt Creator, you can do this via [project settings](https://i.imgur.com/1LYkHyh.png).
+Or if you are a developer and building/running Flameshot via Qt Creator, you can do this via [project settings](img/qt-creator-env-vars.png).
 
 ## How to contribute
 * Translate.
