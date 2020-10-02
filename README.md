@@ -13,6 +13,22 @@ Basic steps to translate using Qt Linguist:
 <img src="https://user-images.githubusercontent.com/10769951/36840468-06f93926-1d80-11e8-8426-4f5a751ea25c.jpg" alt="linguist"/>
 </details>
 
+## How to regenerate the `.ts` file
+
+Before translating, you should regenerate the `.ts` file to get correct source code positions and new strings.
+
+You can do this using `lupdate`, which can be found in the Qt dir, for example `~/Qt/5.12.4/gcc_64/bin/lupdate`.
+
+Run it like this from the Flameshot repo root:
+
+```sh
+lupdate src/ -ts data/translations/Internationalization_ru.ts
+```
+
+If you are a developer building Flameshot via CMake, you can use `-DGENERATE_TS` option.
+
+If you don't have `lupdate`/Qt installed, you can ask someone to regenarate it for you (e.g. in [Slack](https://flameshotworkspace.slack.com)).
+
 ## How to add a new language
 
 (Suppose your language code is `abc`.)
@@ -38,7 +54,7 @@ Or if you are a developer and building/running Flameshot via Qt Creator, you can
 
 ## Status
 
-| Language              | Language Code | Status(Since)      | Contributors |
+| Language              | Language Code | Since      | Contributors |
 | --------------------- | ----- | ----------- | ------------ |
 | Spanish             | es |  :bookmark:v0.1.0    | [lupoDharkael](https://github.com/lupoDharkael), [AlfredoRamos](https://github.com/AlfredoRamos)(minor fix), [Kiroc](https://github.com/Kiroc)(minor fix), [aluaces](https://github.com/aluaces)(typos fix) |
 | Catalan | ca    |  :bookmark:v0.5.0    | [joamuran](https://github.com/joamuran) |
