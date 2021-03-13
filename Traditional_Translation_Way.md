@@ -2,7 +2,7 @@
 ## How to translate
 
 1. Download Qt Linguist using below download link.
-   I highly recommend  you to translate the `.ts` files using [Qt Linguist](http://doc.qt.io/qt-5/qtlinguist-index.html), though you may edit  them with a text editor.
+   I highly recommend you to translate the `.ts` files using [Qt Linguist](http://doc.qt.io/qt-5/qtlinguist-index.html), though you may edit them with a text editor.
    Qt Linguist download link:
 
 * [5.15.2 for Windows](https://github.com/thurask/Qt-Linguist/releases/download/20201205/linguist_5.15.2.zip) 
@@ -53,7 +53,7 @@ Or if you are a developer and building/running Flameshot via Qt Creator, you can
 
 * Translate.
 * Send a pull request to [repo](https://github.com/flameshot-org/flameshot).
-  * If you don't know how to send a pull request, [create an issue](https://github.com/flameshot-org/translation-instruction/issues) and tell me where I can download your translation.
+  * If you don't know how to send a pull request, [create an issue](https://github.com/flameshot-org/translation-instruction/issues) and tell us where we can download your translation from.
 * Your translation will be included in the next version of flameshot.
 
 
