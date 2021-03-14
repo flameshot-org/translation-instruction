@@ -1,87 +1,43 @@
-# [flameshot](https://flameshot-org.github.io) Translation instructions
+# [Flameshot](https://flameshot.org) Translation Instructions
+<a href="https://hosted.weblate.org/engage/flameshot/">
+<img src="https://hosted.weblate.org/widgets/flameshot/-/flameshot/287x66-white.png" alt="Translation status" />
+</a>
 
-## How to translate
-
-1. Download Qt Linguist using below download link.
-I highly recommend  you to translate the `.ts` files using [Qt Linguist](http://doc.qt.io/qt-5/qtlinguist-index.html), though you may edit  them with a text editor.
-Qt Linguist download link:
-* [5.15.0 for Windows](https://github.com/thurask/Qt-Linguist/releases/download/20200811/linguist_5.15.0.zip) 
-
-2. Open file `Internationalization_es.ts` in Qt Linguist, translate all phrases in its interface.
-Basic steps to translate using Qt Linguist:
-<details>
-<img src="https://user-images.githubusercontent.com/10769951/36840468-06f93926-1d80-11e8-8426-4f5a751ea25c.jpg" alt="linguist"/>
-</details>
-
-## How to regenerate the `.ts` file
-
-Before translating, you should regenerate the `.ts` file to get correct source code positions and new strings.
-
-You can do this using `lupdate`, which can be found in the Qt dir, for example `~/Qt/5.12.4/gcc_64/bin/lupdate`.
-
-Run it like this from the Flameshot repo root:
-
-```sh
-lupdate src/ -ts data/translations/Internationalization_ru.ts
-```
-
-If you are a developer building Flameshot via CMake, you can use `-DGENERATE_TS` option.
-
-If you don't have `lupdate`/Qt installed, you can ask someone to regenarate it for you (e.g. in [Slack](https://flameshotworkspace.slack.com)).
-
-## How to add a new language
-
-(Suppose your language code is `abc`.)
-1. Download `Internationalization_es.ts` and rename it to `Internationalization_abc.ts`.
-2. Open `Internationalization_abc.ts` with your favorite text editor, replace the 3rd line with `<TS version="2.1" language="abc">`, save and quit.
-3. Then open and translate `Internationalization_abc.ts` using Qt Linguist.
-***NOTE.*** Translation files begin with "Internationalization", noting that "Internationalization" is initialized with a **capital letter**.
-
-## How to change app language
-
-By default Flameshot chooses the translation language based on the OS settings.
-Currently there is no option in config to override this.
-
-On Linux you can set the `LANGUAGE` environment variable.
-For example, by launching via terminal: `LANGUAGE=ru_RU:ru flameshot`.
-Or if you are a developer and building/running Flameshot via Qt Creator, you can do this via [project settings](img/qt-creator-env-vars.png).
-
-## How to contribute
-* Translate.
-* Send a pull request to [repo](https://github.com/flameshot-org/flameshot).
-   * If you don't know how to send a pull request, [create an issue](https://github.com/flameshot-org/translation-instruction/issues) and tell me where I can download your translation.
-* Your translation will be included in the next version of flameshot.
+Click the above status badge to start translating Flameshot into your language.
 
 ## Status
 
-| Language              | Language Code | Since      | Contributors |
-| --------------------- | ----- | ----------- | ------------ |
-| Spanish             | es |  :bookmark:v0.1.0    | [lupoDharkael](https://github.com/lupoDharkael), [AlfredoRamos](https://github.com/AlfredoRamos)(minor fix), [Kiroc](https://github.com/Kiroc)(minor fix), [aluaces](https://github.com/aluaces)(typos fix) |
-| Catalan | ca    |  :bookmark:v0.5.0    | [joamuran](https://github.com/joamuran) |
-| Russian | ru    |  :bookmark:v0.5.1   | [Shatur95](https://github.com/Shatur95), [alok1111](https://github.com/alok1111)(update), [greno4ka](https://github.com/greno4ka)(typos fix), [AlexP11223](https://github.com/AlexP11223) |
-| Chinese (S) | zh_CN | :bookmark:v0.5.1 | [copie](https://github.com/copie), [hosiet](https://github.com/hosiet)(improve translation) |
-| Chinese (T) | zh_TW | :bookmark:v0.5.1 | [PeterDaveHello](https://github.com/PeterDaveHello) |
-| Turkish               | tr | :bookmark:v0.5.1 | [oltulu](https://github.com/oltulu) |
-| Georgian              | ka | :bookmark:v0.5.1 | [giogziro95](https://github.com/giogziro95) |
-| French                | fr | :bookmark:v0.5.1 | [ld892012](https://github.com/ld892012), [aaaaadrien](https://github.com/aaaaadrien), [damosse31](https://github.com/damosse31) |
-| Polish                | pl | :bookmark:v0.5.1 | [napcok](https://github.com/napcok) |
-| Hungarian             | hu | :bookmark:v0.6.0 | [fxdave](https://github.com/fxdave) |
-| Japanese              | ja | :bookmark:v0.8.0 | [sicklylife-jp](https://github.com/sicklylife-jp) |
-| Portuguese (Brazil) | pt_BR | :bookmark:v0.8.0 | [Streppel](https://github.com/Streppel) |
-| Serbian               | sr_SP | :bookmark:v0.8.0 | [cobisimo](https://github.com/cobisimo) |
-| Dutch | nl | :bookmark:v0.8.0 | [Vistaus](https://github.com/Vistaus) |
-| Ukrainian | uk | :bookmark:v0.8.0 | [VBoden](https://github.com/VBoden) |
-| German (Germany) | de_DE | :bookmark:v0.8.0 | [DaVukovic](https://github.com/DaVukovic) |
-| Slovak | sk | :bookmark:v0.8.0 | [jose1711](https://github.com/jose1711) |
-| Basque (Spain) | eu_ES | :bookmark:v0.8.0 | [alexgabi](https://github.com/alexgabi), [Porrumentzio](https://github.com/Porrumentzio) |
-| Czech | cs | :bookmark:v0.8.0 | [luzpaz](https://github.com/luzpaz) |
-| Swedish (Sweden) | sv_SE | :bookmark:v0.8.0 | [theschitz](https://github.com/theschitz) |
-| Italian | it | :bookmark:v0.8.0 | [albanobattistella](https://github.com/albanobattistella) |
-| Korean | ko | :bookmark:v0.8.0 | [sheepjin99](https://github.com/sheepjin99) |
-| Dutch (Netherlands) | nl_NL | :bookmark:v0.8.0 | [pollekepol](https://github.com/pollekepol) |
+| Language              | Language Code | Status | Contributors |
+| :-------------------- | ----- | :---------- | ------------ |
+| Spanish             | es | [![](https://hosted.weblate.org/widgets/flameshot/es/flameshot/svg-badge.svg)](https://hosted.weblate.org/engage/flameshot/es/) | [lupoDharkael](https://github.com/lupoDharkael), [AlfredoRamos](https://github.com/AlfredoRamos)(minor fix), [Kiroc](https://github.com/Kiroc)(minor fix), [aluaces](https://github.com/aluaces)(typos fix) |
+| Catalan | ca    | [![](https://hosted.weblate.org/widgets/flameshot/ca/flameshot/svg-badge.svg)](https://hosted.weblate.org/engage/flameshot/ca/) | [joamuran](https://github.com/joamuran) |
+| Russian | ru    | [![](https://hosted.weblate.org/widgets/flameshot/ru/flameshot/svg-badge.svg)](https://hosted.weblate.org/engage/flameshot/ru/) | [Shatur95](https://github.com/Shatur95), [alok1111](https://github.com/alok1111)(update), [greno4ka](https://github.com/greno4ka)(typos fix), [AlexP11223](https://github.com/AlexP11223) |
+| Chinese (Simplified) | zh_CN | [![](https://hosted.weblate.org/widgets/flameshot/zh_Hans/flameshot/svg-badge.svg)](https://hosted.weblate.org/engage/flameshot/zh_Hans/) | [copie](https://github.com/copie), [hosiet](https://github.com/hosiet)(improve translation) |
+| Chinese (Traditional) | zh_TW | [![](https://hosted.weblate.org/widgets/flameshot/zh_Hant/flameshot/svg-badge.svg)](https://hosted.weblate.org/engage/flameshot/zh_Hant/) | [Leeklll](https://github.com/Leeklll) |
+| Chinese (Traditional, Hong Kong) | zh_HK | [![](https://hosted.weblate.org/widgets/flameshot/zh_Hant_HK/flameshot/svg-badge.svg)](https://hosted.weblate.org/engage/flameshot/zh_Hant_HK/) | [Leeklll](https://github.com/Leeklll) |
+| Turkish               | tr | [![](https://hosted.weblate.org/widgets/flameshot/tr/flameshot/svg-badge.svg)](https://hosted.weblate.org/engage/flameshot/tr/) | [oltulu](https://github.com/oltulu) |
+| Georgian              | ka | [![](https://hosted.weblate.org/widgets/flameshot/ka/flameshot/svg-badge.svg)](https://hosted.weblate.org/engage/flameshot/ka/) | [giogziro95](https://github.com/giogziro95) |
+| French                | fr | [![](https://hosted.weblate.org/widgets/flameshot/fr/flameshot/svg-badge.svg)](https://hosted.weblate.org/engage/flameshot/fr/) | [ld892012](https://github.com/ld892012), [aaaaadrien](https://github.com/aaaaadrien), [damosse31](https://github.com/damosse31) |
+| Polish                | pl | [![](https://hosted.weblate.org/widgets/flameshot/pl/flameshot/svg-badge.svg)](https://hosted.weblate.org/engage/flameshot/pl/) | [napcok](https://github.com/napcok) |
+| Hungarian             | hu | [![](https://hosted.weblate.org/widgets/flameshot/hu/flameshot/svg-badge.svg)](https://hosted.weblate.org/engage/flameshot/hu/) | [fxdave](https://github.com/fxdave) |
+| Japanese              | ja | [![](https://hosted.weblate.org/widgets/flameshot/ja/flameshot/svg-badge.svg)](https://hosted.weblate.org/engage/flameshot/ja/) | [sicklylife-jp](https://github.com/sicklylife-jp) |
+| Portuguese (Brazil) | pt_BR | [![](https://hosted.weblate.org/widgets/flameshot/pt_BR/flameshot/svg-badge.svg)](https://hosted.weblate.org/engage/flameshot/pt_BR/) | [Streppel](https://github.com/Streppel) |
+| Serbian               | sr_SP | [![](https://hosted.weblate.org/widgets/flameshot/sr_SP/flameshot/svg-badge.svg)](https://hosted.weblate.org/engage/flameshot/sr_SP/) | [cobisimo](https://github.com/cobisimo) |
+| Dutch | nl | - | [Vistaus](https://github.com/Vistaus) |
+| Ukrainian | uk | [![](https://hosted.weblate.org/widgets/flameshot/uk/flameshot/svg-badge.svg)](https://hosted.weblate.org/engage/flameshot/uk/) | [VBoden](https://github.com/VBoden) |
+| German (Germany) | de_DE | [![](https://hosted.weblate.org/widgets/flameshot/de/flameshot/svg-badge.svg)](https://hosted.weblate.org/engage/flameshot/de/) | [DaVukovic](https://github.com/DaVukovic) |
+| Slovak | sk | [![](https://hosted.weblate.org/widgets/flameshot/sk/flameshot/svg-badge.svg)](https://hosted.weblate.org/engage/flameshot/sk/) | [jose1711](https://github.com/jose1711) |
+| Basque (Spain) | eu_ES | [![](https://hosted.weblate.org/widgets/flameshot/eu/flameshot/svg-badge.svg)](https://hosted.weblate.org/engage/flameshot/eu/) | [alexgabi](https://github.com/alexgabi), [Porrumentzio](https://github.com/Porrumentzio) |
+| Czech | cs | [![Translation status](https://hosted.weblate.org/widgets/flameshot/cs/flameshot/svg-badge.svg)](https://hosted.weblate.org/engage/flameshot/cs/) | [luzpaz](https://github.com/luzpaz) |
+| Swedish (Sweden) | sv_SE | [![](https://hosted.weblate.org/widgets/flameshot/sv/flameshot/svg-badge.svg)](https://hosted.weblate.org/engage/flameshot/sv/) | [theschitz](https://github.com/theschitz) |
+| Italian | it | [![](https://hosted.weblate.org/widgets/flameshot/it/flameshot/svg-badge.svg)](https://hosted.weblate.org/engage/flameshot/it/) | [albanobattistella](https://github.com/albanobattistella) |
+| Korean | ko | [![](https://hosted.weblate.org/widgets/flameshot/ko/flameshot/svg-badge.svg)](https://hosted.weblate.org/engage/flameshot/ko/) | [sheepjin99](https://github.com/sheepjin99) |
+| Dutch (Netherlands) | nl_NL | [![](https://hosted.weblate.org/widgets/flameshot/nl/flameshot/svg-badge.svg)](https://hosted.weblate.org/engage/flameshot/nl/) | [pollekepol](https://github.com/pollekepol) |
 
-## How do you find  your language code
+## Contact
 
-For language code, please follow **ISO Language Code** standards. [Here](http://www.lingoes.net/en/translator/langcode.htm)'s a table you can refer to. 
+If you need any help, feel free to [create an issue](https://github.com/flameshot-org/translation-instruction/issues).
 
-But just for reference, if you want to name your translated `.ts` file, you can look up the language code for the language you're translating from [ISO Language Code Table](https://github.com/flameshot-org/translation-instruction/blob/master/ISO_Language_Code_Table.md), it's available directly.
+## Traditional Translation Way
+
+[Click here](https://github.com/flameshot-org/translation-instruction/blob/master/Traditional_Translation_Way.md).
