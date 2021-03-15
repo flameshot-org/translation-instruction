@@ -31,7 +31,7 @@ Click the above status badge to start translating Flameshot into your language.
 | Czech | cs | [![Translation status](https://hosted.weblate.org/widgets/flameshot/cs/flameshot/svg-badge.svg)](https://hosted.weblate.org/engage/flameshot/cs/) | [luzpaz](https://github.com/luzpaz) |
 | Swedish (Sweden) | sv_SE | [![](https://hosted.weblate.org/widgets/flameshot/sv/flameshot/svg-badge.svg)](https://hosted.weblate.org/engage/flameshot/sv/) | [theschitz](https://github.com/theschitz) |
 | Italian | it | [![](https://hosted.weblate.org/widgets/flameshot/it/flameshot/svg-badge.svg)](https://hosted.weblate.org/engage/flameshot/it/) | [albanobattistella](https://github.com/albanobattistella) |
-| Korean | ko | [![](https://hosted.weblate.org/widgets/flameshot/ko/flameshot/svg-badge.svg)](https://hosted.weblate.org/engage/flameshot/ko/) | [sheepjin99](https://github.com/sheepjin99) |
+| Korean | ko | [![](https://hosted.weblate.org/widgets/flameshot/ko/flameshot/svg-badge.svg)](https://hosted.weblate.org/engage/flameshot/ko/) | [RieLCho](https://github.com/RieLCho) |
 | Dutch (Netherlands) | nl_NL | [![](https://hosted.weblate.org/widgets/flameshot/nl/flameshot/svg-badge.svg)](https://hosted.weblate.org/engage/flameshot/nl/) | [pollekepol](https://github.com/pollekepol) |
 
 ## Contact
