@@ -1,40 +1,135 @@
 # [Flameshot](https://flameshot.org) Translation Instructions
 <a href="https://hosted.weblate.org/engage/flameshot/">
-<img src="https://hosted.weblate.org/widgets/flameshot/-/flameshot/287x66-white.png" alt="Translation status" />
+<img src="https://hosted.weblate.org/widgets/flameshot/-/flameshot/open-graph.png" alt="Translation status" />
 </a>
 
-Click the above status badge to start translating Flameshot into your language!
 
 ## Status
 
-| Language              | Language Code | Status | Contributors |
-| :-------------------- | ----- | :---------- | ------------ |
-| Spanish             | es | [![](https://hosted.weblate.org/widgets/flameshot/es/flameshot/svg-badge.svg)](https://hosted.weblate.org/engage/flameshot/es/) | [lupoDharkael](https://github.com/lupoDharkael), [AlfredoRamos](https://github.com/AlfredoRamos)(minor fix), [Kiroc](https://github.com/Kiroc)(minor fix), [aluaces](https://github.com/aluaces)(typos fix) |
-| Catalan | ca    | [![](https://hosted.weblate.org/widgets/flameshot/ca/flameshot/svg-badge.svg)](https://hosted.weblate.org/engage/flameshot/ca/) | [joamuran](https://github.com/joamuran) |
-| Russian | ru    | [![](https://hosted.weblate.org/widgets/flameshot/ru/flameshot/svg-badge.svg)](https://hosted.weblate.org/engage/flameshot/ru/) | [Shatur95](https://github.com/Shatur95), [alok1111](https://github.com/alok1111)(update), [greno4ka](https://github.com/greno4ka)(typos fix), [AlexP11223](https://github.com/AlexP11223) |
-| Chinese (Simplified) | zh_CN | [![](https://hosted.weblate.org/widgets/flameshot/zh_Hans/flameshot/svg-badge.svg)](https://hosted.weblate.org/engage/flameshot/zh_Hans/) | [copie](https://github.com/copie), [hosiet](https://github.com/hosiet)(improve translation) |
-| Chinese (Traditional) | zh_TW | [![](https://hosted.weblate.org/widgets/flameshot/zh_Hant/flameshot/svg-badge.svg)](https://hosted.weblate.org/engage/flameshot/zh_Hant/) | [Leeklll](https://github.com/Leeklll), [SiderealArt](https://github.com/SiderealArt) |
-| Chinese (Traditional, Hong Kong) | zh_HK | [![](https://hosted.weblate.org/widgets/flameshot/zh_Hant_HK/flameshot/svg-badge.svg)](https://hosted.weblate.org/engage/flameshot/zh_Hant_HK/) | [Leeklll](https://github.com/Leeklll) |
-| Turkish               | tr | [![](https://hosted.weblate.org/widgets/flameshot/tr/flameshot/svg-badge.svg)](https://hosted.weblate.org/engage/flameshot/tr/) | [oltulu](https://github.com/oltulu), Oğuz Ersen |
-| Georgian              | ka | [![](https://hosted.weblate.org/widgets/flameshot/ka/flameshot/svg-badge.svg)](https://hosted.weblate.org/engage/flameshot/ka/) | [giogziro95](https://github.com/giogziro95) |
-| French                | fr | [![](https://hosted.weblate.org/widgets/flameshot/fr/flameshot/svg-badge.svg)](https://hosted.weblate.org/engage/flameshot/fr/) | [ld892012](https://github.com/ld892012), [aaaaadrien](https://github.com/aaaaadrien), [damosse31](https://github.com/damosse31) |
-| Polish                | pl | [![](https://hosted.weblate.org/widgets/flameshot/pl/flameshot/svg-badge.svg)](https://hosted.weblate.org/engage/flameshot/pl/) | [napcok](https://github.com/napcok) |
-| Hungarian             | hu | [![](https://hosted.weblate.org/widgets/flameshot/hu/flameshot/svg-badge.svg)](https://hosted.weblate.org/engage/flameshot/hu/) | [fxdave](https://github.com/fxdave) |
-| Japanese              | ja | [![](https://hosted.weblate.org/widgets/flameshot/ja/flameshot/svg-badge.svg)](https://hosted.weblate.org/engage/flameshot/ja/) | [sicklylife-jp](https://github.com/sicklylife-jp) |
-| Portuguese (Brazil) | pt_BR | [![](https://hosted.weblate.org/widgets/flameshot/pt_BR/flameshot/svg-badge.svg)](https://hosted.weblate.org/engage/flameshot/pt_BR/) | [Streppel](https://github.com/Streppel), [gslvrp](https://github.com/gslvrp) |
-| Serbian               | sr_SP | [![](https://hosted.weblate.org/widgets/flameshot/sr_SP/flameshot/svg-badge.svg)](https://hosted.weblate.org/engage/flameshot/sr_SP/) | [cobisimo](https://github.com/cobisimo) |
-| Dutch | nl | - | [Vistaus](https://github.com/Vistaus) |
-| Ukrainian | uk | [![](https://hosted.weblate.org/widgets/flameshot/uk/flameshot/svg-badge.svg)](https://hosted.weblate.org/engage/flameshot/uk/) | [VBoden](https://github.com/VBoden), Andrij Mizyk |
-| German (Germany) | de_DE | [![](https://hosted.weblate.org/widgets/flameshot/de/flameshot/svg-badge.svg)](https://hosted.weblate.org/engage/flameshot/de/) | [DaVukovic](https://github.com/DaVukovic) |
-| Slovak | sk | [![](https://hosted.weblate.org/widgets/flameshot/sk/flameshot/svg-badge.svg)](https://hosted.weblate.org/engage/flameshot/sk/) | [jose1711](https://github.com/jose1711) |
-| Basque (Spain) | eu_ES | [![](https://hosted.weblate.org/widgets/flameshot/eu/flameshot/svg-badge.svg)](https://hosted.weblate.org/engage/flameshot/eu/) | [alexgabi](https://github.com/alexgabi), [Porrumentzio](https://github.com/Porrumentzio) |
-| Czech | cs | [![Translation status](https://hosted.weblate.org/widgets/flameshot/cs/flameshot/svg-badge.svg)](https://hosted.weblate.org/engage/flameshot/cs/) | [luzpaz](https://github.com/luzpaz) |
-| Swedish (Sweden) | sv_SE | [![](https://hosted.weblate.org/widgets/flameshot/sv/flameshot/svg-badge.svg)](https://hosted.weblate.org/engage/flameshot/sv/) | [theschitz](https://github.com/theschitz) |
-| Italian | it | [![](https://hosted.weblate.org/widgets/flameshot/it/flameshot/svg-badge.svg)](https://hosted.weblate.org/engage/flameshot/it/) | [albanobattistella](https://github.com/albanobattistella) |
-| Korean | ko | [![](https://hosted.weblate.org/widgets/flameshot/ko/flameshot/svg-badge.svg)](https://hosted.weblate.org/engage/flameshot/ko/) | [RieLCho](https://github.com/RieLCho) |
-| Dutch (Netherlands) | nl_NL | [![](https://hosted.weblate.org/widgets/flameshot/nl/flameshot/svg-badge.svg)](https://hosted.weblate.org/engage/flameshot/nl/) | [pollekepol](https://github.com/pollekepol) |
-| Norwegian (Bokmål) (Norway) | nb_NO | [![](https://hosted.weblate.org/widgets/flameshot/nb_NO/flameshot/svg-badge.svg)](https://hosted.weblate.org/engage/flameshot/nb_NO/) | [comradekingu](https://github.com/comradekingu) |
-| Greek | el | [![](https://hosted.weblate.org/widgets/flameshot/el/flameshot/svg-badge.svg)](https://hosted.weblate.org/engage/flameshot/el/) |[merianos](https://github.com/merianos)|
+<a href="https://hosted.weblate.org/engage/flameshot/">
+<img src="https://hosted.weblate.org/widgets/flameshot/-/multi-auto.svg" alt="Translation status" />
+</a>
+
+<details>
+    <summary>Full list of contributors and their contribution</summary>
+    <div>
+    <!--
+    this list is generated by Weblet from the following link:
+      https://hosted.weblate.org/projects/flameshot/flameshot/#reports
+    and the contributors emails have been removed 
+    -->
+This list is generated by [Weblet.org](https://hosted.weblate.org/projects/flameshot/flameshot/#reports) and has been manually exported. For privacy reasons, emails of contributors have been removed by running `sed -e 's/ <.*>//g' -e 's/\* /- /g' -e '/^$/d' -e 's/^-/\n-/g'`
+    
+The date range that this list is generated by is from **2020-01-01** to **2022-01-15** (the date after the version 11.0 release).
+    
+- Galician
+    - Monkey D. Luffy (38)
+    - gbrea (78)
+
+- Turkish
+    - Oğuz Ersen (143)
+
+- Chinese (Traditional, Hong Kong)
+    - Henry Chemistry (8)
+
+- Portuguese (Brazil)
+    - João Vicente L. F. Machado (1)
+    - Gabriel Pupo (7)
+    - Gustavo Costa (9)
+    - Ray Batista (96)
+
+- German
+    - Jannis Harting (6)
+    - vinz (8)
+    - J. Lavoie (16)
+    - Benjamin Schmid (18)
+
+- Greek
+    - MOUSTAFA ALIOGLOU (19)
+    - Nikos Merianos (27)
+
+- Basque
+    - Porrumentzio (89)
+
+- Russian
+    - Nikita Epifanov (39)
+    - Andrei Stepanov (137)
+
+- Bulgarian
+    - 109247019824 (7)
+
+- Ukrainian
+    - Andrij Mizyk (67)
+    - Ihor Hordiichuk (149)
+
+- Japanese
+    - nullobsi (95)
+
+- Catalan
+    - Guillem (95)
+
+- Hungarian
+    - Zoltán Nagy (170)
+
+- Hebrew
+    - Avi Markovitz (309)
+
+- Polish
+    - Daniel Napora (2)
+    - mondstern (3)
+
+- Italian
+    - J. Lavoie (5)
+    - albanobattistella (345)
+
+- Indonesian
+    - Jacque Fresco (4)
+    - Reza Almanda (40)
+    - Aditya Rahman (108)
+
+- Dutch
+    - Freek Pol (10)
+    - Heimen Stoffels (17)
+
+- Spanish
+    - borgman.jeremy (2)
+    - Leandro René Vallejos Puppo (71)
+    - Hin Weisner (79)
+
+- French
+    - borgman.jeremy (1)
+    - Delmont Jim (30)
+    - J. Lavoie (35)
+    - Jeandupeux Célien (88)
+
+- Swedish
+    - mondstern (3)
+    - Luna Jernberg (24)
+
+- Persian
+    - Mehrad Mahmoudian (38)
+    - Danial Behzadi (48)
+    - Eshagh Shahedany (300)
+
+- Finnish
+    - Jiri Grönroos (168)
+
+- Korean
+    - Aditya Rahman (1)
+
+- Slovak
+    - Tomáš Kukumberg (13)
+
+- Chinese (Traditional)
+    - Shen-Ta Hsieh(BestSteve) (18)
+    - 曹恩逢 (103)
+
+- Chinese (Simplified)
+    - Boyuan Yang (119)
+
+    </div>
+    
+</details>
 
 ## Contact
 
@@ -42,4 +137,4 @@ If you need any help, feel free to [create an issue](https://github.com/flamesho
 
 ## Traditional Translation Way
 
-[Click here](https://github.com/flameshot-org/translation-instruction/blob/master/Traditional_Translation_Way.md).
+For information about how to translate in old-fashion way [Click here](https://github.com/flameshot-org/translation-instruction/blob/master/Traditional_Translation_Way.md).
